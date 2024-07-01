@@ -34,7 +34,7 @@ flags.DEFINE_string(
 flags.DEFINE_integer("prometheus_port", 0, "")
 flags.DEFINE_bool("enable_jax_profiler", False, "enable jax profiler")
 flags.DEFINE_integer("jax_profiler_port", 9999, "port of JAX profiler server")
-flags.DEFINE_integer("enable_model_warmup", False, "enable model warmup")
+flags.DEFINE_bool("enable_model_warmup", False, "enable model warmup")
 
 
 # pylint: disable-next=all
