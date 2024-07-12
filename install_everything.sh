@@ -25,8 +25,8 @@ pip show tensorflow-text && pip uninstall -y tensorflow-text
 pip show torch_xla2 && pip uninstall -y torch_xla2
 
 pip install flax
-pip install tensorflow-text
-pip install tensorflow
+pip install tensorflow-text==2.13.0
+pip install tensorflow==2.13.1
 
 pip install ray[default]==2.22.0
 # torch cpu
